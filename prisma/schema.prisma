@@ -14,7 +14,7 @@ model User {
   avatar_url String
   login      String
 
-  message Message[]
+  messages Message[]
   @@map("users")
 }
 
