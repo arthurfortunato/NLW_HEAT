@@ -9,7 +9,7 @@ Retornar o token com as infos do user;
 
 class AuthenticateUserService {
   async execute(code: string) {
-    const url = 'https://api.github.com/login/oauth/access_token';
+    const url = 'https://github.com/login/oauth/access_token';
 
     const response = await axios.post(url, null, {
       params: {
