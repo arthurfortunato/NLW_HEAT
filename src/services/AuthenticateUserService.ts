@@ -1,4 +1,5 @@
 import axios from 'axios';
+import prismaClient from '../prisma';
 /* 
 Receber code(string): string;
 Recuperar o access_token no github;
@@ -40,7 +41,13 @@ class AuthenticateUserService {
       }
     })
 
-    return response.data;
+    const { login, id, avatar_url, name } = response.data;
+
+    const user = await prismaClient.user.findFirst({
+      where: {
+        github_id: id
+      }
+    })
   }
 
 }
