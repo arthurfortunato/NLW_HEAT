@@ -1,8 +1,19 @@
+import { api } from '../../services/api';
+
 import styles from './styles.module.scss';
 
 import logoImg from '../../assets/logo.svg';
+import { useEffect } from 'react';
 
 export function MessageList() {
+  useEffect(() => {
+    //chamada para api 
+    api.get('messages/last3').then(response => {
+      console.log(response.data);
+    })
+  }, [])
+
+
   return (
     <div className={styles.messageListWrapper}>
       <img src={logoImg} alt="Logo" />
