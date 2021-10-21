@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 
 import { Message } from '../Message';
 
@@ -8,10 +8,14 @@ import { styles } from './styles';
 
 export function MessageList() {
   return (
-    <View style={styles.container}>
+    <ScrollView
+      style={styles.container}
+      contentContainerStyle={styles.content}
+      keyboardShouldPersistTaps="never"
+    >
       <Message />
       <Message />
       <Message />
-    </View>
+    </ScrollView>
   );
 }
