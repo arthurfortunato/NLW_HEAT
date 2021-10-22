@@ -21,7 +21,6 @@ export function SignInBox() {
         onPress={signIn}
         isLoading={isSigningIn}
       />
-
     </View>
   );
 }
