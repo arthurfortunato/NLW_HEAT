@@ -3,7 +3,7 @@ import * as AuthSessions from 'expo-auth-session';
 import { api } from '../services/api';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const GITHUB_CLIENT_ID = 'cfe6b8f616846cd90a2e';
+const CLIENT_ID = 'cfe6b8f616846cd90a2e';
 const SCOPE = 'read:user';
 const USER_STORAGE = '@nlwheatapp : user';
 const TOKEN_STORAGE = '@nlwheatapp : token';
@@ -48,7 +48,7 @@ function AuthProvider({ children }: AuthProviderProps) {
 
   async function signIn() {
     try {
-      const authUrl = `https://github.com/login/oauth/authorize?client_id=${GITHUB_CLIENT_ID}&scope=${SCOPE}`;
+      const authUrl = `https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}&scope=${SCOPE}`;
       const authSessionResponse = await AuthSessions.startAsync({ authUrl }) as AuthorizationResponse;
 
 
