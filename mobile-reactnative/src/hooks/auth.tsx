@@ -13,23 +13,23 @@ type User = {
   avatar_url: string;
   name: string;
   login: string;
-}
+};
 
 type AuthContextData = {
   user: User | null;
   isSigningIn: boolean;
   signIn: () => Promise<void>;
   signOut: () => Promise<void>;
-}
+};
 
 type AuthProviderProps = {
   children: React.ReactNode;
-}
+};
 
 type AuthResponse = {
   token: string;
   user: User;
-}
+};
 
 type AuthorizationResponse = {
   params: {
@@ -37,7 +37,7 @@ type AuthorizationResponse = {
     error?: string;
   },
   type?: string;
-}
+};
 
 export const AuthContext = createContext({} as AuthContextData);
 
@@ -67,13 +67,13 @@ function AuthProvider({ children }: AuthProviderProps) {
     } finally {
       setIsSigningIn(false);
     }
-  }
+  };
 
   async function signOut() {
     setUser(null);
     await AsyncStorage.removeItem(USER_STORAGE);
     await AsyncStorage.removeItem(TOKEN_STORAGE);
-  }
+  };
 
   useEffect(() => {
     async function loadUserStorageData() {
@@ -99,15 +99,12 @@ function AuthProvider({ children }: AuthProviderProps) {
       {children}
     </AuthContext.Provider>
   )
-}
+};
 
 function useAuth() {
   const context = useContext(AuthContext);
 
   return context;
-}
+};
 
-export {
-  AuthProvider,
-  useAuth
-}
+export { AuthProvider, useAuth };

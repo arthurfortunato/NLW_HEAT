@@ -16,12 +16,12 @@ const SIZES = {
     containerSize: 48,
     avatarSize: 42,
   }
-}
+};
 
 type Props = {
   imageUri: string | undefined;
   sizes?: 'SMALL' | 'NORMAL';
-}
+};
 
 const AVATAR_DEFAULT = Image.resolveAssetSource(avatarImg).uri;
 
@@ -55,4 +55,4 @@ export function UserPhoto({ imageUri, sizes = 'NORMAL' }: Props) {
       />
     </LinearGradient>
   );
-}
+};

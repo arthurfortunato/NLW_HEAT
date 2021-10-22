@@ -8,4 +8,4 @@ export const styles = StyleSheet.create({
     backgroundColor: COLORS.BLACK_SECONDARY,
     paddingTop: getStatusBarHeight() + 17
   }
-})
+});

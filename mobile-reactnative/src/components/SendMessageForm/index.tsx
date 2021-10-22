@@ -25,7 +25,7 @@ export function SendMessageForm() {
     } else {
       Alert.alert('Escreva a mensagem para enviar.');
     }
-  }
+  };
 
   return (
     <View style={styles.container}>
@@ -52,4 +52,4 @@ export function SendMessageForm() {
 
     </View>
   );
-}
+};

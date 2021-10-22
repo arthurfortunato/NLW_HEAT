@@ -17,7 +17,7 @@ type Props = TouchableOpacityProps & {
   backgroundColor: ColorValue;
   icon?: React.ComponentProps<typeof AntDesign>['name'];
   isLoading?: boolean;
-}
+};
 
 export function Button({ title, color, backgroundColor, icon, isLoading = false, ...rest }: Props) {
   return (
@@ -39,4 +39,4 @@ export function Button({ title, color, backgroundColor, icon, isLoading = false,
 
     </TouchableOpacity>
   );
-}
+};

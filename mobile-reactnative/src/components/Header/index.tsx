@@ -26,4 +26,4 @@ export function Header() {
       </View>
     </View>
   );
-}
+};

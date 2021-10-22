@@ -12,7 +12,7 @@ const socket = io(String(api.defaults.baseURL));
 socket.on('new_message', (newMessage) => {
   messagesQueue.push(newMessage);
   console.log(newMessage)
-})
+});
 
 export function MessageList() {
 
@@ -47,4 +47,4 @@ export function MessageList() {
 
     </ScrollView>
   );
-}
+};

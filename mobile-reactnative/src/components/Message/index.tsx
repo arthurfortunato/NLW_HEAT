@@ -14,11 +14,11 @@ export type MessageProps = {
     name: string;
     avatar_url: string;
   }
-}
+};
 
 type Props = {
   data: MessageProps;
-}
+};
 
 export function Message({ data }: Props) {
   return (
@@ -45,4 +45,4 @@ export function Message({ data }: Props) {
       </View>
     </MotiView>
   );
-}
+};
