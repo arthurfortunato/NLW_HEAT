@@ -7,6 +7,17 @@
   grid-template-columns: 1fr 453px;
   column-gap: 120px;
   position: relative;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 20px;
+  }
+
+  @media (max-width: 1210px) {
+    margin: 10px;
+  }
 }
 
 .contentSigned::before {
@@ -18,4 +29,8 @@
   position: absolute;
   right: -200px;
   top: 0;
+
+  @media (max-width: 1210px) {
+    display: none;
+  }
 }

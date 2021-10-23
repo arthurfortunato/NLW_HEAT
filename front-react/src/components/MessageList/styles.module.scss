@@ -9,6 +9,16 @@
     height: 28px;
     margin: 32px 0;
   }
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    img {
+      width: 250px;
+    }
+  }
 }
 
 .messageList {
@@ -29,6 +39,11 @@
     .messageContent {
       font-size: 20px;
       line-height: 28px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+        line-height: 20px;
+      }
     }
 
     .messageUser {
@@ -53,7 +68,20 @@
       span {
         font-size: 16px;
         margin-left: 12px;
+
+        @media (max-width: 768px) {
+          font-size: 12px;
+          margin-left: 8px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        margin: 10px;
       }
     }
+  }
+  @media (max-width: 768px) {
+    gap: 10px;
+    height: 100%;
   }
 }

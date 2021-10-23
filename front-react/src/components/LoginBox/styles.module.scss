@@ -1,4 +1,4 @@
-.LoginBoxWrapper {
+.loginBoxWrapper {
   height: 100vh;
   width: 100%;
   background: #17171a url(../../assets/banner-girl.png) no-repeat center top;
@@ -14,6 +14,11 @@
   strong {
     font-size: 32px;
     line-height: 36px;
+
+    @media (max-width: 768px) {
+      font-size: 25px;
+      line-height: 28px;
+    }
   }
 
   .signInWithGithub {
@@ -31,15 +36,17 @@
     align-items: center;
     justify-content: center;
 
-    transition: all 0.5s;
-
     svg {
       margin-right: 16px;
     }
+
     &:hover {
       filter: brightness(0.9);
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
     }
+  }
+  @media (max-width: 768px) {
+    background: none;
+    padding: 100px;
+    height: 100%;
   }
 }
