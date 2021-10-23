@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img alt="Landing NLW" src="front-react/src/assets/Landing.png">
+  <img alt="Landing NLW" src="front-react/src/assets/Landing.png" width="80%">
 </p>
 
 ## 🧪 Tecnologias
@@ -30,7 +30,7 @@ Esse projeto foi feito com as seguintes tecnologias:
 - [Axios](https://www.npmjs.com/package/axios)
 
 <p align="center">
-  <img alt="Landing NLW" src="front-react/src/assets/Mobile.png">
+  <img alt="Landing NLW" src="front-react/src/assets/Mobile.png" height="500px">
 </p>
 
 ---
