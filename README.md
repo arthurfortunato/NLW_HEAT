@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img alt="Logo NLW" src="front-react/src/assets/logo.svg" >
+  <img alt="Logo NLW" src="front-react/src/assets/logo.svg">
 </p>
 
 ## 💻 Projeto NLW Heat Impulse 
