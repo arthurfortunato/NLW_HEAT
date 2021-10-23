@@ -2,10 +2,9 @@
 <h2 align="center">Trilha Impulse</h2>
 <br>
 
-<div align="center">
-
-  ![DoWhile](front-react/src/assets/logo.svg)
-</div>
+<p align="center">
+  <img alt="Logo NLW" src="front-react/src/assets/logo.svg" >
+</p>
 
 ## 💻 Projeto NLW Heat Impulse 
 <br>
