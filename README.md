@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img alt="Landing NLW" src="front-react/src/assets/Landing.png" width="80%">
+  <img alt="Landing NLW" src="front-react/src/assets/Landing.png" width="90%">
 </p>
 
 ## 🧪 Tecnologias
