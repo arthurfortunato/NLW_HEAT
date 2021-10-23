@@ -1,17 +1,14 @@
 <h1 align="center"> 🚀🚀 NLW - Heat 🚀🚀</h1>
 <h2 align="center">Trilha Impulse</h2>
 <br>
-
-<p align="center">
+<div align="center">
   <img alt="Logo NLW" src="front-react/src/assets/logo.svg">
-</p>
+</div>
 
 ## 💻 Projeto NLW Heat Impulse 
 <br>
 
-<p align="center">
-  <img alt="Landing NLW" src="front-react/src/assets/Landing.png" width="90%">
-</p>
+ <img alt="Landing NLW" src="front-react/src/assets/Landing.png" width="77%">    <img alt="Landing NLW" src="front-react/src/assets/Mobile.png" height="430px">
 
 ## 🧪 Tecnologias
 
@@ -27,10 +24,6 @@ Esse projeto foi feito com as seguintes tecnologias:
 - [Expo](https://docs.expo.dev/)
 - [Moti](https://moti.fyi/)
 - [Axios](https://www.npmjs.com/package/axios)
-
-<p align="center">
-  <img alt="Landing NLW" src="front-react/src/assets/Mobile.png" height="500px">
-</p>
 
 ---
 
