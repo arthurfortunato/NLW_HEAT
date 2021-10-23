@@ -7,9 +7,9 @@
 
 ## 💻 Projeto NLW Heat Impulse 
 <br>
-
- <img alt="Landing NLW" src="front-react/src/assets/Landing.png" width="77%">    <img alt="Landing NLW" src="front-react/src/assets/Mobile.png" height="430px">
-
+<p align="center">
+ <img alt="Landing NLW" src="front-react/src/assets/Landing.png" width="90%"> 
+</p>
 ## 🧪 Tecnologias
 
 Esse projeto foi feito com as seguintes tecnologias:
@@ -24,6 +24,14 @@ Esse projeto foi feito com as seguintes tecnologias:
 - [Expo](https://docs.expo.dev/)
 - [Moti](https://moti.fyi/)
 - [Axios](https://www.npmjs.com/package/axios)
+
+<p align="center">
+<img alt="Landing NLW" src="front-react/src/assets/banner-girl.png" width="300px" height="500px">
+
+<img alt="Landing NLW" src="front-react/src/assets/Mobile.png" height="500px">
+
+</p>
+
 
 ---
 
