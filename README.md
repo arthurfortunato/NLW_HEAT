@@ -54,8 +54,9 @@ $ yarn dev
 # Acesse a pasta do frontend ou mobile do projeto no prompt de comando
 $ cd front-react || cd mobile-reactnative
 
-# Instale as dependências
+# Instale as dependências 
 $ yarn
 
 # Execute o script "start"
-$ web: yarn dev mobile: expo start
+$ web: yarn dev
+$ mobile: expo start
